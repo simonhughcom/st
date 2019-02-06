@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "mono:pixelsize=24:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -83,7 +83,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xed;
+unsigned int alpha = 0xbc;
 
 static const char *colorname[] = {
 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
@@ -114,7 +114,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 15;
-unsigned int defaultbg = 0;
+unsigned int defaultbg = 256;
 static unsigned int defaultcs = 15;
 static unsigned int defaultrcs = 0;
 
